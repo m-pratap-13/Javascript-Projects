@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+h1 {
+  background-color: #081b31;
+  color: #fff;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.choice {
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #081b31;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+  border-radius: 50%;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+
+.score {
+  font-size: 4rem;
+}
+
+.msg-container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#reset {
+  background-color: #032c0c;
+  color: #fff;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+#winnerCondition {
+  background-color: #98c3f3;
+  color: #503b3b;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.msg {
+  background-color: #081b31;
+  color: #fff;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.msg:hover {
+  cursor: pointer;
+}
+button:hover {
+  cursor: pointer;
+}
+.Light {
+  background-color: white;
+  color: black;
+}
+
+.Dark {
+  background-color: rgb(43, 42, 42);
+  color: white;
+}
+#display{
+  float: right;
+  margin-right: 25px;
+  height: 30px;
+  width: 50px;
+  border: none;
+  background-color: #98c3f3;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
